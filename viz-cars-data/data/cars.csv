@@ -1,0 +1,13 @@
+name,type,awd,rwd,retail_price,dealer_cost,engine_size,cyl,horsepower,city_mpg,highway_mpg,weight,wheel_base,len,width
+Acura 3.5 RL 4dr,Sedan,0,0,43755,39014,3.5,6,225,18,24,3880,115,197,72
+Acura 3.5 RL w/Navigation 4dr,Sedan,0,0,46100,41100,3.5,6,225,18,24,3893,115,197,72
+Acura MDX,SUV,1,0,36945,33337,3.5,6,265,17,23,4451,106,189,77
+Acura NSX coupe 2dr manual S,Sports Car,0,1,89765,79978,3.2,6,290,17,24,3153,100,174,71
+Acura RSX Type S 2dr,Sedan,0,0,23820,21761,2,4,200,24,31,2778,101,172,68
+Acura TL 4dr,Sedan,0,0,33195,30299,3.2,6,270,20,28,3575,108,186,72
+Acura TSX 4dr,Sedan,0,0,26990,24647,2.4,4,200,22,29,3230,105,183,69
+Audi A4 1.8T 4dr,Sedan,0,0,25940,23508,1.8,4,170,22,31,3252,104,179,70
+Audi A4 3.0 4dr,Sedan,0,0,31840,28846,3,0,220,20,28,3462,104,179,70
+Audi A4 3.0 convertible 2dr,Sedan,0,0,42490,38325,3,6,220,20,27,3814,105,180,70
+Audi A4 3.0 Quattro 4dr auto,Sedan,1,0,34480,31388,0,6,220,18,25,3627,104,179,70
+Audi A4 3.0 Quattro 4dr manual,Sedan,1,0,33430,30366,3,6,220,17,26,3583,104,179,70
