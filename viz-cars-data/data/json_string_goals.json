@@ -1,0 +1,21 @@
+[
+    {
+      "index": 0,
+      "question": "What is the distribution of car types in the dataset?",
+      "visualization": "bar chart of car types",
+      "rationale": "This provides insights into the distribution of car types (Sedan, SUV) in the dataset. The 'type' field is used to categorize the cars, and a bar chart is a suitable visualization for comparing the frequency of each type."
+    },
+    {
+      "index": 1,
+      "question": "How does the retail price vary across different car models?",
+      "visualization": "box plot of retail prices for each car model",
+      "rationale": "This visualization aims to show the variability in retail prices for different car models. The 'name' and 'retail_price' fields are utilized, and a box plot is chosen for its effectiveness in displaying the distribution of prices for each car model."
+    },
+    {
+      "index": 2,
+      "question": "Is there a correlation between engine size and horsepower of the cars?",
+      "visualization": "scatter plot of engine size vs. horsepower",
+      "rationale": "This goal explores the relationship between engine size and horsepower. The 'engine_size' and 'horsepower' fields are involved, and a scatter plot is selected to visualize the correlation between these two numerical variables."
+    }
+]
+  

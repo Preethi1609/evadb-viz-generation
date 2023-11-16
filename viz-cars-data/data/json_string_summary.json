@@ -1,0 +1,196 @@
+{
+    "name": "/home/preethi/projects/evadb-viz-generation/viz-cars-data/data/cars.csv",
+    "file_name": "/home/preethi/projects/evadb-viz-generation/viz-cars-data/data/cars.csv",
+    "dataset_description": "Dataset containing information about cars.",
+    "fields": [
+    {
+    "column": "name",
+    "properties": {
+    "dtype": "string",
+    "samples": ["Audi A4 3.0 Quattro 4dr auto", "Audi A4 3.0 convertible 2dr"],
+    "num_unique_values": 12,
+    "semantic_type": "model_name",
+    "description": "Name of the car model."
+    }
+    },
+    {
+    "column": "type",
+    "properties": {
+    "dtype": "category",
+    "samples": ["Sedan", "SUV"],
+    "num_unique_values": 3,
+    "semantic_type": "car_type",
+    "description": "Type of the car, e.g., Sedan, SUV."
+    }
+    },
+    {
+    "column": "awd",
+    "properties": {
+    "dtype": "number",
+    "std": 0,
+    "min": 0,
+    "max": 1,
+    "samples": [1, 0],
+    "num_unique_values": 2,
+    "semantic_type": "boolean",
+    "description": "Whether the car has all-wheel drive (AWD)."
+    }
+    },
+    {
+    "column": "rwd",
+    "properties": {
+    "dtype": "number",
+    "std": 0,
+    "min": 0,
+    "max": 1,
+    "samples": [1, 0],
+    "num_unique_values": 2,
+    "semantic_type": "boolean",
+    "description": "Whether the car has rear-wheel drive (RWD)."
+    }
+    },
+    {
+    "column": "retail_price",
+    "properties": {
+    "dtype": "number",
+    "std": 17446,
+    "min": 23820,
+    "max": 89765,
+    "samples": [34480, 42490],
+    "num_unique_values": 12,
+    "semantic_type": "price",
+    "description": "Retail price of the car."
+    }
+    },
+    {
+    "column": "dealer_cost",
+    "properties": {
+    "dtype": "number",
+    "std": 15370,
+    "min": 21761,
+    "max": 79978,
+    "samples": [31388, 38325],
+    "num_unique_values": 12,
+    "semantic_type": "price",
+    "description": "Dealer cost of the car."
+    }
+    },
+    {
+    "column": "engine_size",
+    "properties": {
+    "dtype": "number",
+    "std": 1.016343714229859,
+    "min": 0.0,
+    "max": 3.5,
+    "samples": [3.5, 3.2],
+    "num_unique_values": 7,
+    "semantic_type": "engine_size",
+    "description": "Size of the car's engine."
+    }
+    },
+    {
+    "column": "cyl",
+    "properties": {
+    "dtype": "number",
+    "std": 1,
+    "min": 0,
+    "max": 6,
+    "samples": [6, 4],
+    "num_unique_values": 3,
+    "semantic_type": "cylinder_count",
+    "description": "Number of cylinders in the car's engine."
+    }
+    },
+    {
+    "column": "horsepower",
+    "properties": {
+    "dtype": "number",
+    "std": 33,
+    "min": 170,
+    "max": 290,
+    "samples": [225, 265],
+    "num_unique_values": 7,
+    "semantic_type": "horsepower",
+    "description": "Horsepower of the car."
+    }
+    },
+    {
+    "column": "city_mpg",
+    "properties": {
+    "dtype": "number",
+    "std": 2,
+    "min": 17,
+    "max": 24,
+    "samples": [17, 22],
+    "num_unique_values": 5,
+    "semantic_type": "mileage",
+    "description": "City miles per gallon (MPG) of the car."
+    }
+    },
+    {
+    "column": "highway_mpg",
+    "properties": {
+    "dtype": "number",
+    "std": 2,
+    "min": 23,
+    "max": 31,
+    "samples": [23, 27],
+    "num_unique_values": 8,
+    "semantic_type": "mileage",
+    "description": "Highway miles per gallon (MPG) of the car."
+    }
+    },
+    {
+    "column": "weight",
+    "properties": {
+    "dtype": "number",
+    "std": 433,
+    "min": 2778,
+    "max": 4451,
+    "samples": [3627, 3814],
+    "num_unique_values": 12,
+    "semantic_type": "weight",
+    "description": "Weight of the car."
+    }
+    },
+    {
+    "column": "wheel_base",
+    "properties": {
+    "dtype": "number",
+    "std": 4,
+    "min": 100,
+    "max": 115,
+    "samples": [115, 106],
+    "num_unique_values": 7,
+    "semantic_type": "length",
+    "description": "Wheelbase of the car."
+    }
+    },
+    {
+    "column": "len",
+    "properties": {
+    "dtype": "number",
+    "std": 8,
+    "min": 172,
+    "max": 197,
+    "samples": [189, 183],
+    "num_unique_values": 8,
+    "semantic_type": "length",
+    "description": "Length of the car."
+    }
+    },
+    {
+    "column": "width",
+    "properties": {
+    "dtype": "number",
+    "std": 2,
+    "min": 68,
+    "max": 77,
+    "samples": [72, 77],
+    "num_unique_values": 6,
+    "semantic_type": "width",
+    "description": "Width of the car."
+    }
+    }
+    ]
+    }
